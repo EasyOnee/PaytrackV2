@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
 =========================================================
 * Material Dashboard 2 React - v2.2.0
@@ -197,44 +196,3 @@ export default function App() {
     </ThemeProvider>
   );
 }
-=======
-import './App.css';
-import './Components/Login/Login';
-import './Components/Adeudos/Adeudos';
-import Login from './Components/Login/Login';
-import Adeudos from './Components/Adeudos/Adeudos';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-//tema
-import "primereact/resources/themes/lara-light-indigo/theme.css";
-
-//núcleo
-import "primereact/resources/primereact.min.css";
-
-//iconos
-import "primeicons/primeicons.css";
-
-
-
-var x= localStorage.getItem('user');
-function App() {
-
-  let actual;
-  if (x == null) {
-    actual = <Login></Login>;
-  }else
-  {
-    actual = <Adeudos></Adeudos>;
-  }
-
-  return (
-    <div>
-      <header>
-        {actual}
-      </header>
-    </div>
-  );
-}
-
-export default App;
->>>>>>> ffde5df3d6300785161f033e321db9eccb325af8

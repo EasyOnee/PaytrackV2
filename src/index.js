@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
 =========================================================
 * Material Dashboard 2 React - v2.2.0
@@ -32,22 +31,3 @@ root.render(
     </MaterialUIControllerProvider>
   </BrowserRouter>
 );
-=======
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
->>>>>>> ffde5df3d6300785161f033e321db9eccb325af8
