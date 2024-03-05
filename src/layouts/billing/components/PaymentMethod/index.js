@@ -39,11 +39,11 @@ function PaymentMethod() {
     <Card id="delete-account">
       <MDBox pt={2} px={2} display="flex" justifyContent="space-between" alignItems="center">
         <MDTypography variant="h6" fontWeight="medium">
-          Payment Method
+          Metodo de pago
         </MDTypography>
         <MDButton variant="gradient" color="dark">
           <Icon sx={{ fontWeight: "bold" }}>add</Icon>
-          &nbsp;add new card
+          &nbsp;Agregar nueva tarjeta
         </MDButton>
       </MDBox>
       <MDBox p={2}>

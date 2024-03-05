@@ -47,8 +47,8 @@ function Billing() {
                 <Grid item xs={12} md={6} xl={3}>
                   <DefaultInfoCard
                     icon="account_balance"
-                    title="salary"
-                    description="Belong Interactive"
+                    title="Dinero disponible  "
+                    description=""
                     value="+$2000"
                   />
                 </Grid>
@@ -56,7 +56,7 @@ function Billing() {
                   <DefaultInfoCard
                     icon="paypal"
                     title="paypal"
-                    description="Freelance Payment"
+                    description="pago"
                     value="$455.00"
                   />
                 </Grid>
